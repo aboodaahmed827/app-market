@@ -400,11 +400,11 @@
   /***/
   function _(module, exports, __webpack_require__) {
     __webpack_require__(
-    /*! F:\Projects\market\node_modules\bootstrap\dist\css\bootstrap.min.css */
+    /*! F:\projects\market\node_modules\bootstrap\dist\css\bootstrap.min.css */
     "./node_modules/bootstrap/dist/css/bootstrap.min.css");
 
     module.exports = __webpack_require__(
-    /*! F:\Projects\market\src\styles.css */
+    /*! F:\projects\market\src\styles.css */
     "./src/styles.css");
     /***/
   }
