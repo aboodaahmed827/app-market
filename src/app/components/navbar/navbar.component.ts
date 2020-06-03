@@ -24,7 +24,7 @@ export class NavbarComponent implements OnInit {
     this.authService.user.subscribe(user=>{
       if(user){
         this.isUser = true;
-        localStorage.setItem('user' , JSON.stringify(user))
+        /* localStorage.setItem('user' , JSON.stringify(user)) */
         this.authService.userId = user.uid;
 
         this.userService.getUserData().subscribe(userData=>{
